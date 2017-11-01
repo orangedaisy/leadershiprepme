@@ -20,22 +20,27 @@ body {
   padding: 3.375rem 1rem;
   text-align: center;
 }
+
 h1 {
   color: #ff8200;
 }
+
 p {
   color: #58595b;
 }
-a {
-  color: #006C93;
+
+a { color: #006C93;
 }
+
 a:hover,
 a:focus {
   color: #ee3e80;
 }
+
 a:active {
   color: #ff8200;
 }
+
 a:visited {
   color: #754a7e;
 }
