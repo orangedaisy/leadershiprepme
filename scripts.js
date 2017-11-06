@@ -10,16 +10,16 @@ function countReps(e) {
 
     repCount.innerText = clickCount;
 
-    if (clickCount < 25) {
+    if (clickCount < 10) {
         // 1-star heart
         heartStars.innerText = "\u2605";
-    } else if (clickCount >= 25 && clickCount < 50) {
+    } else if (clickCount >= 10 && clickCount < 25) {
         // 2-star heart
         heartStars.innerText = "\u2605".repeat(2);
-    } else if (clickCount >= 50 && clickCount < 75) {
+    } else if (clickCount >= 25 && clickCount < 50) {
         // 3-star heart
         heartStars.innerText = "\u2605".repeat(3);
-    } else if (clickCount >= 75 && clickCount < 100) {
+    } else if (clickCount >= 50 && clickCount < 100) {
         // 4-star heart
         heartStars.innerText = "\u2605".repeat(4);
     } else if (clickCount >= 100) {
