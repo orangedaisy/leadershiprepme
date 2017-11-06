@@ -6,8 +6,6 @@ var clickCount = 0;
 repCount.innerText = clickCount;
 
 function countReps(e) {
-    e.preventDefault();
-
     clickCount++;
 
     repCount.innerText = clickCount;
